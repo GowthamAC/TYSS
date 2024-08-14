@@ -44,7 +44,7 @@ public  Object[][] data(String sheetname) throws Throwable {
 			arr[i][j]=sheet.getRow(i).getCell(j).getStringCellValue();
 			
 			//to create data 
-			//aee[i][j]=sheet,createrow(i).createcell(j).setcellvalus();
+			//aee[i][j]=sheet.createrow(i).createcell(j).setcellvalus();
 		}
 	}
 	return arr; 

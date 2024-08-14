@@ -11,13 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 class trip
 {
 	public static void main(String[] args) {
-//    for (int i = 1; i <=100; i++) {
-//		System.out.println(i);
-//	}
-		int a=1;
-		while(a<=100) {
-		System.out.println(a);
-		a++;
-	}
+WebDriver driver=new ChromeDriver();
+driver.get("https://www.google.com");
 	}
 }
